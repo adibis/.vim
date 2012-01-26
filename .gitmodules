@@ -4,3 +4,9 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+[submodule "bundle/csupport"]
+	path = bundle/csupport
+	url = https://github.com/vim-scripts/c.vim.git
+[submodule "bundle/systemverilog"]
+	path = bundle/systemverilog
+	url = https://github.com/vim-scripts/systemverilog.vim.git
