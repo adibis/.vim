@@ -9,6 +9,7 @@ To install on your own machine just run the following commands.
     cd ~
     git clone git://github.com/adibis/.vim.git
     ln -s ~/.vim/config.vim ~/.vimrc
+    ln -s ~/.vim/gvim-config.vim ~/.gvimrc
     cd ~/.vim
     git submodule init
     git submodule update
