@@ -9,7 +9,7 @@ set undolevels=200      " Number of undo levels.
 " set ttyfast             " We have a fast terminal connection.
 " set encoding=utf-8      " Set default encoding to UTF-8.
 " set showbreak=+         " Show a '+' if a line is longer than the screen.
-" set laststatus=2        " When to show a statusline.
+set laststatus=2        " When to show a statusline.
 " set autowrite           " Automatically save before :next, :make etc.
 set nostartofline       " Do not jump to first character with page commands,
                         " i.e., keep the cursor in the current column.
