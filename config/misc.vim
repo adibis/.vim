@@ -32,3 +32,5 @@ if has("syntax")
   syntax on
 endif
 
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
