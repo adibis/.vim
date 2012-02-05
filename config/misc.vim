@@ -32,5 +32,7 @@ if has("syntax")
   syntax on
 endif
 
+" Sets a status line. If in a Git repository, shows the current branch.
+" Also shows the current file name, line and column number.
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
