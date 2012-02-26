@@ -10,12 +10,12 @@ if has("autocmd")
 
   " Verilog code.
   augroup systemverilog
+    " SystemVerilog files.
     autocmd BufReadPre,FileReadPre      *.sv set filetype=systemverilog
-  augroup END
-
-  " Ruby code.
-  augroup ruby
-    autocmd BufReadPre,FileReadPre      *.rb set tabstop=2
+    " SystemVerilog Assertions files.
+    autocmd BufReadPre,FileReadPre      *.sva set filetype=systemverilog
+    " SystemVerilog Header files.
+    autocmd BufReadPre,FileReadPre      *.vh set filetype=systemverilog
   augroup END
 
 endif
