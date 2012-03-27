@@ -14,8 +14,9 @@ set tabstop=4           " Render TABs using this many spaces.
 set shiftwidth=4        " Indentation amount for < and > commands.
 set scrolloff=5         " Keep a context when scrolling.
 set noerrorbells        " No beeps.
-set visualbell t_vb=    " Disable the annoying bell and make it visual.
+"set visualbell t_vb=    " Disable the annoying bell and make it visual.
 set modeline            " Enable modeline.
+set t_Co=16
 " set nomodeline          " Disable modeline.
 set esckeys             " Cursor keys in insert mode.
 
