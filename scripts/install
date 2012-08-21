@@ -3,7 +3,7 @@
 RED='\033[0;41;30m'
 STD='\033[0;0;39m'
 
-INSTALL_DIR="$HOME/TESTING/.vim"
+INSTALL_DIR="$HOME/.vim"
 
 _install() {
     git clone git://github.com/adibis/.vim.git $INSTALL_DIR
