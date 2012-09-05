@@ -27,6 +27,9 @@ set listchars=tab:>-,trail:?,eol:$
 set wildmode=list:longest
 set wildchar=<TAB>
 
+" Use <F5> to insert current date when in INSERT mode.
+inoremap <F5> <C-R>=strftime("%y-%m-%d")<CR>
+
 " Enable syntax-highlighting.
 if has("syntax")
   syntax on
