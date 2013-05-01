@@ -30,6 +30,9 @@ set wildchar=<TAB>
 " Use <F5> to insert current date when in INSERT mode.
 inoremap <F5> <C-R>=strftime("%y-%m-%d")<CR>
 
+" Map the leader key to ,
+let mapleader=","
+
 " Enable syntax-highlighting.
 if has("syntax")
   syntax on

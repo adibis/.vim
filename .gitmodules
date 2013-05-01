@@ -28,3 +28,6 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/ctrl-p"]
+	path = bundle/ctrl-p
+	url = git://github.com/kien/ctrlp.vim

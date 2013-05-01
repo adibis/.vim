@@ -1,10 +1,9 @@
 " =============================================================================
-" Nerdtree Stuff.
+" Ctrl-P Stuff.
 " =============================================================================
 
-nnoremap <F9> :NERDTreeToggle<CR>
-nmap <silent> <leader>n :NERDTreeToggle<CR>
+" Leader + t opens ctrl-p search
+nmap <silent> <leader>t :CtrlP<CR>
 
-if !has("gui_running")
-    let g:NERDTreeDirArrows=0
-endif
+" Leader + b opens buffer search
+nmap <silent> <leader>b :CtrlPBuffer<CR>
