@@ -19,4 +19,4 @@ set modeline            " Enable modeline.
 set t_Co=16
 " set nomodeline          " Disable modeline.
 set esckeys             " Cursor keys in insert mode.
-
+set noballooneval       " No more annoying balloon popups.

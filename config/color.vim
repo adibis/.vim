@@ -1,8 +1,8 @@
 if has("gui_running")
-    colorscheme mustang
+    colorscheme molokai
     set background=dark
     "set guifont=Ubuntu\ Mono\ Bold\ 12
-    set guifont=Monaco\ 10
+    set guifont=Monaco\ 11
 else
     colorscheme railscasts16
     set background=dark
