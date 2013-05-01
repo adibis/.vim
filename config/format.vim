@@ -16,7 +16,7 @@ set scrolloff=5         " Keep a context when scrolling.
 set noerrorbells        " No beeps.
 "set visualbell t_vb=    " Disable the annoying bell and make it visual.
 set modeline            " Enable modeline.
-set t_Co=16
+set t_Co=256
 " set nomodeline          " Disable modeline.
 set esckeys             " Cursor keys in insert mode.
 set noballooneval       " No more annoying balloon popups.
