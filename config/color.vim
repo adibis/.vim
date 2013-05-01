@@ -4,8 +4,9 @@ if has("gui_running")
     "set guifont=Ubuntu\ Mono\ Bold\ 12
     set guifont=Monaco\ 11
 else
-    colorscheme railscasts16
+    colorscheme solarized
     set background=dark
     "set guifont=Ubuntu\ Mono\ Bold\ 12
     set guifont=Monaco\ Bold\ 11
+    set t_Co=256
 endif

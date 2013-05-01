@@ -25,6 +25,3 @@
 [submodule "bundle/dwm-vim"]
 	path = bundle/dwm-vim
 	url = git://github.com/spolu/dwm.vim.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = https://github.com/wincent/Command-T
