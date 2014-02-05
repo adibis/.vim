@@ -9,6 +9,7 @@ nmap <silent> <leader>n :NERDTreeToggle<CR>
 
 let g:NERDTreeWinPos = "right"
 
-if !has("gui_running")
+" Hack for Qualcomm PCs.
+"if !has("gui_running")
     let g:NERDTreeDirArrows=0
-endif
+"endif
