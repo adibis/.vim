@@ -1,5 +1,6 @@
 " =============================================================================
 " File save options.
+" Copied from vim tips wiki page.
 " =============================================================================
 
 set nobackup writebackup " backup current file, deleted afterwards

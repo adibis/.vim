@@ -1,5 +1,6 @@
 " =============================================================================
 " Indentation options.
+" Author - Aditya Shevade <aditya.shevade@gmail.com>
 " =============================================================================
 
 set noautoindent    " I indent my code myself.

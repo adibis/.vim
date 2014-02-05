@@ -1,3 +1,8 @@
+" =============================================================================
+" Cursor options to get correct behavior.
+" Author - Aditya Shevade <aditya.shevade@gmail.com>
+" =============================================================================
+
 if &term =~ "xterm\\|rxvt"
   " use an orange cursor in insert mode
   let &t_SI = "\<Esc>]12;orange\x7"

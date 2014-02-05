@@ -1,5 +1,6 @@
 " =============================================================================
 " Splits Related Stuff.
+" Author - Aditya Shevade <aditya.shevade@gmail.com>
 " =============================================================================
 
 " Use tab to move between splits in command mode

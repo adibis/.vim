@@ -1,5 +1,6 @@
 " =============================================================================
 " Search options.
+" Author - Aditya Shevade <aditya.shevade@gmail.com>
 " =============================================================================
 
 set hlsearch    " Highlight search results.

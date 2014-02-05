@@ -1,5 +1,6 @@
 " =============================================================================
 " Standard Stuff.
+" Author - Aditya Shevade <aditya.shevade@gmail.com>
 " =============================================================================
 
 set nocompatible        " Disable vi compatibility.

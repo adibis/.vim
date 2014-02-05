@@ -8,3 +8,7 @@ Session.vim
 # Local backup files
 *.bkp
 *.bak
+
+# Vundle specific files
+bundle/**
+~bundle/vundle

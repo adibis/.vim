@@ -63,6 +63,7 @@ iab obnsolete obsolete
 iab flase false
 iab recrusive recursive
 iab Recrusive Recursive
+iab puhs push
 
 " Days of week.
 iab monday Monday

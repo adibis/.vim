@@ -1,8 +1,12 @@
+" =============================================================================
+" Colorscheme settings depending on if the GUI is loaded or not.
+" Author - Aditya Shevade <aditya.shevade@gmail.com>
+" =============================================================================
+
 if has("gui_running")
-    colorscheme solarized
+    colorscheme codeschool
     set background=dark
-    "set guifont=Ubuntu\ Mono\ Bold\ 12
-    set guifont=Monaco\ Bold\ 10
+    set guifont=Monaco\ Bold\ 11
 else
     colorscheme solarized
     set background=dark

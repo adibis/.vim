@@ -1,5 +1,6 @@
 " =============================================================================
 " Formatting options.
+" Author - Aditya Shevade <aditya.shevade@gmail.com>
 " =============================================================================
 
 set showcmd             " Show (partial) command in status line.
