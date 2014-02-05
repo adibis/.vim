@@ -1,31 +1,25 @@
 # Vim Configuration Directory
 
-This repository is the vim configuration I use.
+Update:
+  2014-02-05: I have removed pathogen from my setup and moved to Vundle for easier maintenance.
 
 ## Installing On Your Own System
 
-To install on your own machine just run the following commands.
+Run the following commands to install on your system,
 
     cd ~
     git clone git://github.com/adibis/.vim.git
     ln -s ~/.vim/config.vim ~/.vimrc
     ln -s ~/.vim/gvim-config.vim ~/.gvimrc
     cd ~/.vim
-    git submodule init
-    git submodule update
+    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
-# Upgrading The Plugins
+Now start gvim and run,
 
-To upgrade any particular plugin, run the following commands.
+    :BundleInstall
 
-    cd ~/.vim/bundle/pluginName
-    git pull origin master
+That's it. Close and reload vim and you should have all the plugins ready to use.
 
-To upgrade all the plugins at once, run the following command.
+# Help
 
-    git submodule foreach git pull origin master
-
-### TODO
-
-Write a script/rakefile to install, script to update one or more plugins at a time.
-
+Please read the manual of Vundle at, https://github.com/gmarik/vundle.git for information on updating, cleaning and adding bundles to your setup.
