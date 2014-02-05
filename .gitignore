@@ -12,3 +12,6 @@ Session.vim
 # Vundle specific files
 bundle/**
 ~bundle/vundle
+
+# Qualcomm specific files.
+*qualcomm*
