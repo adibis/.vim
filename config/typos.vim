@@ -73,3 +73,6 @@ iab thursday Thursday
 iab friday Friday
 iab saturday Saturday
 iab sunday Sunday
+
+" Insert current day and date.
+iab <expr> dts strftime("%a, %d %b %Y")
