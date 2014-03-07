@@ -21,3 +21,4 @@ set t_Co=256
 " set nomodeline          " Disable modeline.
 set esckeys             " Cursor keys in insert mode.
 set noballooneval       " No more annoying balloon popups.
+set showtabline=2       " Shows the tab_bar by default. Avoids shifting.

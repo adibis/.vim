@@ -4,9 +4,10 @@
 " =============================================================================
 
 if has("gui_running")
-    colorscheme codeschool
+    colorscheme solarized
     set background=dark
-    set guifont=Monaco\ Bold\ 11
+"    set guifont=Monaco\ Bold\ 11
+    set guifont=Luculent\ 11\ Bold\ 11
 else
     colorscheme solarized
     set background=dark
