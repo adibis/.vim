@@ -1,18 +1,19 @@
 " =============================================================================
-" Tabular plugin mappings for the alignmenmt of code.
+" Mappings for the tabular plugin.
 " Author - Aditya Shevade <aditya.shevade@gmail.com>
 " =============================================================================
 
 " TODO: Fix this variable conditional checking.
 "if exists(":Tabularize")
-  nmap <Leader>a= :Tabularize /=<CR>
-  vmap <Leader>a= :Tabularize /=<CR>
-  nmap <Leader>a: :Tabularize /:\zs<CR>
-  vmap <Leader>a: :Tabularize /:\zs<CR>
+  nmap <leader>a= :Tabularize /=<CR>
+  vmap <leader>a= :Tabularize /=<CR>
+  nmap <leader>a: :Tabularize /:\zs<CR>
+  vmap <leader>a: :Tabularize /:\zs<CR>
 "endif
 
-" This code is copied from tpope on Github.
-" it will call the :Tabularize command each time you insert a | character.
+" Copied from tpope on Github.
+" It will call the :Tabularize command each time you insert a | character
+"
 "inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
 "
 "function! s:align()

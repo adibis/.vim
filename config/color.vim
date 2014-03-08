@@ -4,10 +4,10 @@
 " =============================================================================
 
 if has("gui_running")
-    colorscheme solarized
+    colorscheme two2tango
     set background=dark
 "    set guifont=Monaco\ Bold\ 11
-    set guifont=Luculent\ 11\ Bold\ 11
+    set guifont=Envy\ Code\ R\ 12
 else
     colorscheme solarized
     set background=dark
