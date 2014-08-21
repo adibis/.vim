@@ -3,7 +3,7 @@
 "------------------------------------------------------------------------------
 
 "folding settings
-set foldmethod=syntax   "fold based on indent
-set foldnestmax=2       "deepest fold is 10 levels
-set nofoldenable        "dont fold by default
-set foldlevel=1         "this is just what i use
+setlocal foldmethod=syntax   "fold based on indent
+setlocal foldnestmax=2       "deepest fold is 10 levels
+setlocal nofoldenable        "dont fold by default
+setlocal foldlevel=1         "this is just what i use
