@@ -4,7 +4,7 @@
 " =============================================================================
 
 if has("gui_running")
-    colorscheme two2tango
+    colorscheme base16-twilight
     set background=dark
     set guifont=Monaco\ 10
 else
