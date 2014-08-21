@@ -1,8 +1,5 @@
 # Vim Configuration Directory
 
-Update:
-  2014-02-05: I have removed pathogen from my setup and moved to Vundle for easier maintenance.
-
 ## Installing On Your Own System
 
 Run the following commands to install on your system,
@@ -12,11 +9,11 @@ Run the following commands to install on your system,
     ln -s ~/.vim/config.vim ~/.vimrc
     ln -s ~/.vim/gvim-config.vim ~/.gvimrc
     cd ~/.vim
-    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 Now start gvim and run,
 
-    :BundleInstall
+    :VundleInstall
 
 That's it. Close and reload vim and you should have all the plugins ready to use.
 
