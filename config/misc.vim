@@ -35,6 +35,11 @@ inoremap <F5> <C-R>=strftime("%y-%m-%d")<CR>
 " Map the leader key to ,
 let mapleader=","
 
+" Remove special characters for filename
+set isfname-=:
+set isfname-==
+set isfname-=+
+
 " Enable syntax-highlighting.
 if has("syntax")
     syntax on
