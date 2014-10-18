@@ -6,7 +6,7 @@
 if has("gui_running")
     colorscheme base16-twilight
     set background=dark
-    set guifont=Monaco\ 10
+    set guifont=Monaco\ Bold\ 10
 else
     colorscheme solarized
     set background=dark
