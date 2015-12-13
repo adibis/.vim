@@ -4,9 +4,9 @@
 " =============================================================================
 
 if has("gui_running")
-    colorscheme base16-twilight
+    colorscheme jellybeans
     set background=dark
-    set guifont=Monaco\ Bold\ 10
+    set guifont=M+\ 1m\ Light\ 12
 else
     colorscheme solarized
     set background=dark
