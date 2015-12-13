@@ -33,7 +33,7 @@ set wildchar=<TAB>
 inoremap <F5> <C-R>=strftime("%y-%m-%d")<CR>
 
 " Map the leader key to ,
-let mapleader=","
+let mapleader="\<SPACE>"
 
 " Remove special characters for filename
 set isfname-=:

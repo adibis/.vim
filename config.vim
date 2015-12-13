@@ -4,7 +4,7 @@
 " =============================================================================
 
 " Map the leader key to ,
-let mapleader=","
+let mapleader="\<SPACE>"
 
 " Delegate configuration to files in config/
 runtime! vundle.config
